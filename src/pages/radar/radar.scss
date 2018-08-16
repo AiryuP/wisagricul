@@ -1,0 +1,50 @@
+page-radar {
+    ion-content{
+        width:  100%;
+        height: 100%;
+        background: url("../assets/images/bg.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        .radarBox{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            .radarChart{
+                width: 100%;
+                height: 60%;
+                .mySlider{
+                    width: 100%;
+                    height: 100%;
+                    // background: #0056BA;
+                    position: relative;
+                    .mySliders{
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            .radarLegend{
+                width: 100%;
+                // height: 40%;
+                color: rgb(255, 255, 255);
+                padding: 10px 10px 0 10px;
+                div{
+                    margin-bottom: 8px;
+                    font-size: 14px;
+                }
+                .radar_explain_title{
+                    font-size: 3vh;
+                    margin-bottom: 5px;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,158 @@
+
+<ion-content>
+  <div class="container">
+      <div class="py_top">
+        <div class="py_logo">
+          <div class="py_logo_img"> <img src="assets/images/logo.png" alt="logo"> <span> 平阴县气象局 </span></div>
+        </div>
+      </div>
+      <!-- <div class="py_bottom">
+        <div class="py_menu_row">
+            <div class="py_menu_row_cont clearfix">
+              <div class="py_menu_list list_left">
+                <div class="py_list_box" (click)="tozidongzhan()">
+                  <div><i class="iconfont icon-weizhi"></i> </div>
+                  <span>自动站</span>
+                </div>
+              </div>
+              <div class="py_menu_list list_right">
+                  <div class="py_list_box" (click)="toEW()">
+                    <div><i class="iconfont icon-jinggaotishijingbaoyujing"></i> </div>
+                    <span>气象预警</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="py_menu_row">
+            <div class="py_menu_row_cont clearfix">
+              <div class="py_menu_list list_left">
+                  <div class="py_list_box" (click)="toRadar()">
+                    <div><i class="iconfont icon-leidatance"></i> </div>
+                    <span>雷达图</span>
+                  </div>
+              </div>
+              <div class="py_menu_list list_right">
+                  <div class="py_list_box" (click)="toCloud()">
+                    <div><i class="iconfont icon-weixing"></i> </div>
+                    <span>云图</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="py_menu_row">
+            <div class="py_menu_row_cont clearfix">
+              <div class="py_menu_list list_left">
+                  <div class="py_list_box" (click)="toExample()">
+                    <div><i class="iconfont icon-hua"></i> </div>
+                    <span>示范点</span>
+                  </div>
+              </div>
+              <div class="py_menu_list list_right">
+                  <div class="py_list_box" (click)="toQuota()">
+                    <div><i class="iconfont icon-zhibiao"></i> </div>
+                    <span>指标库</span>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="py_menu_row clearfix">
+            <div class="py_menu_row_cont">
+              <div class="py_menu_list list_left">
+                  <div class="py_list_box" (click)="toRainfall()">
+                    <div><i class="iconfont icon-jianyiyuliangzhan"></i> </div>
+                    <span class="">雨量统计</span>
+                  </div>
+              </div>
+              <div class="py_menu_list list_right">
+                <div class="py_list_box" (click)="toArtificial()">
+                  <div><i class="iconfont icon-jiangyuliang"></i> </div>
+                  <span>人工增雨</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> -->
+
+
+            <!-- 天气 -->
+            <div class="py_tianqi">
+
+              <div class="py_tianqi_top">
+      
+                <div class="top_tem">22.5℃</div>
+      
+              </div>
+              <div class="py_tianqi_bottom clearfix">
+      
+                <div class="py_tianqi_row">
+                    <div style="color: rgb(48, 45, 196)"> <ion-icon name="ios-water-outline"></ion-icon>  </div>
+                    <div>湿度</div>
+                    <div>75%</div>
+                </div>
+                <div class="py_tianqi_row">
+                    <div style="color: rgb(255, 0, 0)"><ion-icon name="ios-speedometer-outline"></ion-icon></div>
+                    <div>气压</div>
+                    <div>1001.2hpa</div>
+                </div>
+                <div class="py_tianqi_row">
+                    <div style="color: rgb(76, 225, 245)"><ion-icon name="ios-paper-plane-outline"></ion-icon></div>
+                    <div>东风</div>
+                    <div>2.9m/s</div>
+                </div>
+                <div class="py_tianqi_row">
+                    <div style="color: rgb(197, 193, 216)"><ion-icon name="ios-rainy-outline"></ion-icon></div>
+                    <div>降水</div>
+                    <div>0mm</div>
+                </div>
+      
+              </div>
+      
+            </div>
+
+
+
+      <!-- 功能项 -->
+      <div class="py_tubiao">
+          <div class="py_tubiao_row clearfix xxx">
+            <div class="py_tubiao_top_icon" (click)="tozidongzhan()">
+              <div><i class="iconfont icon-weizhi"></i> </div>
+              <span>自动站</span>
+            </div>
+            <div class="py_tubiao_top_icon" (click)="toEW()">
+              <div><i class="iconfont icon-jinggaotishijingbaoyujing"></i> </div>
+              <span>气象预警</span>
+            </div>
+            <div class="py_tubiao_top_icon" (click)="toRadar()">
+              <div><i class="iconfont icon-leidatance"></i> </div>
+              <span>雷达图</span>
+            </div>
+            <div class="py_tubiao_top_icon" (click)="toCloud()">
+              <div><i class="iconfont icon-weixing"></i> </div>
+              <span>云图</span>
+            </div>
+          </div>
+          <div class="py_tubiao_row clearfix">
+            <div class="py_tubiao_top_icon" (click)="toExample()">
+              <div><i class="iconfont icon-hua"></i> </div>
+              <span>示范点</span>
+            </div>
+            <div class="py_tubiao_top_icon" (click)="toQuota()">
+              <div><i class="iconfont icon-zhibiao"></i> </div>
+              <span>指标库</span>
+            </div>
+            <div class="py_tubiao_top_icon" (click)="toRainfall()">
+              <div><i class="iconfont icon-jianyiyuliangzhan"></i> </div>
+              <span class="">雨量统计</span>
+            </div>
+            <div class="py_tubiao_top_icon" (click)="toArtificial()">
+              <div class="iccon"><i class="iconfont icon-jiangyuliang"></i> </div>
+              <span>人工增雨</span>
+            </div>
+          </div>
+      </div>
+    
+
+
+
+  </div>
+</ion-content>

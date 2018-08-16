@@ -1,0 +1,37 @@
+<ion-header no-border>
+
+  <ion-navbar color="darkskyblue">
+    <ion-title>卫星云图</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="cloudBox">
+
+    <div class="cloudChart">
+        <div id="cloudtu" class="mySlider">
+          <div class="mySliders" *ngFor="let list of cloudArray"><img src="{{ list.url }}" alt=""></div>
+        </div>
+    </div>
+    <div class="cloudLegend">
+        <div class="cloud_explain_title">说明：</div>
+        <div class="cloud_explain_one">
+            1、风云气象卫星位于东经105度的赤道上空，距离地面约35,800公里。
+        </div>
+        <div class="cloud_explain_two">
+            2、这颗卫星紧随地球的自转而运行，相对于地面是静止不动的(故又名地球同步卫星)。
+        </div>
+        <div class="cloud_explain_three">
+            3、可以24小时不断拍摄地球上同一地区的云图
+        </div>
+        <div class="cloud_explain_four">
+            4、卫星云图每隔半小时或一小时一幅。图像动画能让观看者更清楚地了解云团的移动变化。
+        </div>
+    </div>
+
+  </div>
+
+</ion-content>

@@ -1,0 +1,43 @@
+<ion-header no-border>
+
+  <ion-navbar color="darkskyblue">
+    <ion-title>雷达图</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div class="radarBox">
+
+        <div class="radarChart">
+            <div id="radartu" class="mySlider">
+                <div class="mySliders" *ngFor="let list of radarArray"><img src="{{ list.url }}" alt=""></div> 
+                <!-- <div class="mySliders"><img src="assets/images/leida/Radar/2.gif" alt=""></div>
+                <div class="mySliders"><img src="assets/images/leida/Radar/3.gif" alt=""></div>
+                <div class="mySliders"><img src="assets/images/leida/Radar/4.gif" alt=""></div>
+                <div class="mySliders"><img src="assets/images/leida/Radar/5.gif" alt=""></div>
+                <div class="mySliders"><img src="assets/images/leida/Radar/6.gif" alt=""></div>
+                <div class="mySliders"><img src="assets/images/leida/Radar/7.gif" alt=""></div>
+                <div class="mySliders"><img src="assets/images/leida/Radar/8.gif" alt=""></div>
+                <div class="mySliders"><img src="assets/images/leida/Radar/9.gif" alt=""></div> -->
+            </div>
+        </div>
+        <div class="radarLegend">
+            <div class="radar_explain_title">说明：</div>
+            <div class="radar_explain_one">
+                1、天气雷达是透过量度从雨点反射回来的信号强弱来探测大气中的降雨。
+            </div>
+            <div class="radar_explain_two">
+                2、一般来说，雨点越大越多，反射信号越强。
+            </div>
+            <div class="radar_explain_three">
+                3、天气雷达偶然会接收到并非来自降雨的反射信号，包括云、树木、建筑物等物体的反射。
+            </div>
+            <div class="radar_explain_four">
+                4、这些信号间中会出现在雷达图像上，观看图像时请留意区分。
+            </div>
+        </div>
+    
+      </div>
+</ion-content>
